@@ -1,0 +1,15 @@
+{
+  "name": "gartz-resume",
+  "version": "1.0.0",
+  "description": "CV Resume",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Gabriel Reitz Giannattasio <gabriel@gartz.com.br>",
+  "license": "ISC",
+  "devDependencies": {
+    "node-static": "^0.7.6"
+  }
+}

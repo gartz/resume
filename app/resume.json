@@ -1,0 +1,155 @@
+{
+  "title": "GIANNATTASIO, Gabriel - Resume",
+  "modules": [
+    {
+      "id": "menu",
+      "component": "menu",
+      "data": {
+        "title": "Gabriel Reitz Giannattasio"
+      }
+    },
+    {
+      "id": "summary",
+      "component": "section",
+      "data": {
+        "title": "Summary",
+        "contents": [
+          "Senior software engineer with over 10 years of IT experience in client/server applications, embedded applications, distributed applications, and Linux.",
+          "Over 10 years of experience with JavaScript, HTML, PHP, and CSS.",
+          "Extensive experience with JavaScript: programming for frontend and backend (Node.js) for the last 4 years; familiar with functional, object-oriented, and prototypal paradigms.",
+          "Strong experience with single page applications (SPA) and the latest ECMAScript and HTML APIs.",
+          "Around 8 years of professional experience with PHP, from the earlier versions with procedural paradigms to the later versions with object-oriented and mixed paradigms.",
+          "Started programming since I was a kid, and I'm still passionate about it; create open source libraries often."
+         ]
+       }
+    },
+    {
+      "id": "skills",
+      "component": "section",
+      "data": {
+        "title": "Technical Skills",
+        "contents": [
+          "**Single Page Applications:** History and PushState APIs, CommonJS and AMD standards, component- and MVC-pattern frameworks.",
+          "**Web Application Performance:** WebWorker (threads on the browser), WebSocket, WebRTC, WebSQL and IndexedDB APIs. Packing, concatenation, minification and source-mapping techniques.",
+          "**Web Servers**: Apache, nginx, Node.js applications.",
+          "**Server-side languages:** Advanced in JavaScript and PHP; professional experience with Python, Ruby, and ShellScript.",
+          "**Databases:** RDBMSes (SQL-based databases), MongoDB, Memcached, and Redis.",
+          "**Networking:** HTTP(S), WS, SSH, TCP/IP, FastCGI, IGMP and Telnet.",
+          "**Development methodologies:** Scrum, eXtreme Programming (XP), and test-driven development (TDD)."
+         ]
+       }
+    },
+    {
+      "id": "experience",
+      "component": "experience",
+      "data": {
+        "title": "Professional Experience",
+        "companies": [
+          {
+            "name": "Expensify",
+            "city": "San Francisco",
+            "state": "CA",
+            "job": "Full Stack Software Engineer",
+            "products": [
+              {
+                "name": "Analytics DB and Base CRM integration",
+                "dateStart": "Nov 2014",
+                "dateEnd": "Dec 2014",
+                "resume": "Integrated the internal analytics database with Base CRM; created a bot that updates deal and client information for the Sales team.",
+                "tags": [
+                  "PHP", "REST API", "MySQL", "reverse engineering"
+                ],
+                "tasks": [
+                  "Create a PHP API client to integrate with Base CRM, that allows to access the Public documented Base API and also their internal API, by reverse-engineering the Base Web Application to allow access to all features not available in the Public API.",
+                  "..."
+                ]
+              },
+              {
+                "name": "Help email bot integration with Freshdesk and Zendesk",
+                "dateStart": "Sep 2014",
+                "dateEnd": "Nov 2014",
+                "resume": "",
+                "tasks": [
+                  "...",
+                  "..."
+                ]
+              },
+              {
+                "name": "User account policies clonning tool",
+                "dateStart": "Ago 2014",
+                "dateEnd": "Sep 2014",
+                "resume": "",
+                "tasks": [
+                  "...",
+                  "..."
+                ]
+              },
+              {
+                "name": "Back-end and Front-end bug fixing",
+                "dateStart": "Jul 2014",
+                "dateEnd": "Ago 2014",
+                "resume": "",
+                "tasks": [
+                  "...",
+                  "..."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "",
+            "city": "",
+            "state": "",
+            "country": "",
+            "job": "",
+            "products": [
+              {
+                "name": "",
+                "dateStart": "",
+                "dateEnd": "",
+                "tasks": [
+                  ""
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "education",
+      "component": "section",
+      "data": {
+        "title": "Personal Info",
+        "contents": [
+          "**Education:** Análise e Desenvolvimento de Sistemas, SENAI, Florianópolis - Brazil",
+          "**Email:** gabriel@gartz.com.br",
+          "**Phone:** (415) 770-8475",
+          "**Linkedin:** [linkedin.com/in/gabrielgartz](https://linkedin.com/in/gabrielgartz \"Gabriel's Linkedin\")",
+          "**Open Source Projects:** [Github Profile](https://github.com/gartz \"Gabriel's Github\")",
+          "**Communities Profile:** [StackOverflow in English](http://stackoverflow.com/users/583049/gabriel-gartz \"Gabriel's StackOverflow in English\"), [StackOverflow in Portuguese](http://pt.stackoverflow.com/users/3689/gabriel-gartz \"Gabriel's StackOverflow in Portuguese\")"
+        ]
+      }
+
+    },
+    {
+      "id": "portfolio",
+      "component": "section",
+      "data": {
+        "title": "Portfolio",
+        "printable": false,
+        "contents": [
+          "**[PushStateTree](https://github.com/gartz/pushStateTree \"PushStateTree Github Project\"):** A SPA router system that allows using event listeners, children rules, and lots of other moderns features. I've created this project based on an internal design archtecture. In 2011, I created for Cianet IPTV using Backbone years before Angular 2.0 started planning on adding those features to their router. The first version extended the Backbone router module and added the features, and this project is a port for vanilla JavaScript made in January 2014.",
+          "**[ObjectEventTarget](https://github.com/gartz/ObjectEventTarget \"ObjectEventTarget Github Project\"):** It's a prototype object that gives the same behaviour of a DOM EventTarget API to any JavaScript object without exposing the events on any of the objects' properties in the prototype chain. The project [Chronometer.js](https://github.com/gartz/chronometer.js \"Chronometer.js Github Project\") has been created to demonstrate the ObjectEventTarget working.",
+          "**[Entity](https://github.com/gartz/Entity \"Entity Github Project\"):** Work in progress; part of a larger library; works with data communication between servers, clients, DOMElement bindings, and its environment representations.",
+          "**[EleicoesBrazilScraper](https://github.com/gartz/EleicoesBrazilScraper \"EleicoesBrazilScraper Github Project\"):** Multi-threaded Brazillian goverment election results scraper using Node.js.",
+          "**[default-parameter.js](https://github.com/gartz/default-parameter.js \"default-parameter.js Github Project\"):** An experiment with `arguments.callee` and `arguments.caller` from JavaScript that easily allows one to define the default values of arguments in a function.",
+          "**[yo-letmein](https://github.com/gartz/yo-letmein \"yo-letmein Github Project\"):** An experiment to integrate RaspberryPi with Yo web triggers using Node.js to control the GPIO of the RaspberryPi which triggers a relay and opens the intercom of my apartment building.",
+          "**[Draughts.js](https://github.com/gartz/draughtsjs \"Draughts.js Github Project\"):** It's a Checkers game build in Vanilla JavaScript, HTML5 and CSS3, compatible with all modern browsers and IE8+, wihtout any external lib, no jQuery here too ;). It has sound, dynamic customizing rules, it reuses some of DOM Element features, and have a online version integrated with Meteor.js available at [damas.gartz.com.br](http://damas.gartz.com.br) that allows multiplayer gamming.",
+          "**[RequireJS Wrapper Plugin](https://github.com/gartz/RequireJS-Wrapper-Plugin \"RequireJS Wrapper Plugin Github Project\"):** It's a plugin that adds support to CommonJS libs to RequireJS 1.x, also was very in a very important discussion in Stackoverflow, and the archtecture of this plugin have been one of the inspirations to the Shim module of RequireJS 2.0.",
+          "**[Facebook Lost Video Chrome Plugin](https://github.com/gartz/chrome-fbvideo \"Facebook Lost Video Chrome Plugin Github Project\"):** Has been created when Facebook was updating their website to be a Single Page Application, and at that time when you play a video in the timeline, if you keep scrolling, you could lose the video, but keep hearing it, was very anoying, this plugin bring the active videos to the corner of your browser, allowing access even when you were navigating in other pages. Became deprecated after Facebook change the way that they play videos to stop it when you scroll the timeline."
+        ]
+      }
+    }
+  ]
+}

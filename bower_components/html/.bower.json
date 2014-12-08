@@ -1,0 +1,15 @@
+{
+  "name": "html",
+  "homepage": "https://github.com/gartz/html",
+  "version": "0.0.2",
+  "_release": "0.0.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.0.2",
+    "commit": "ea5a6be5e3963ce0c94bccfa8b1f569a4212ab84"
+  },
+  "_source": "https://github.com/gartz/html.git",
+  "_target": "~0.0.2",
+  "_originalSource": "https://github.com/gartz/html.git",
+  "_direct": true
+}
