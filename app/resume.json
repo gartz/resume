@@ -46,6 +46,23 @@
         "title": "Professional Experience",
         "companies": [
           {
+            "name": "Visually",
+            "city": "San Francisco",
+            "state": "CA",
+            "job": "Full Stack Software Engineer",
+            "products": [
+              {
+                "name": "Marketplace",
+                "dateStart": "Dec 2014",
+                "dateEnd": "Feb 2015",
+                "tasks": [
+                  "Team developed the 2015 finance module from the Marketplace admin page, been responsable by the Project Costs, and summaries representations. We used Backbone, Backbone.modelBinder, Backbone.colectionBinder, Less and Jade to build the frontend. It uses Zend views what provides the data that is used in the frontend, and the backend doesn't support REST at this point. This project took 2 sprints (4 weeks)",
+                  "Refactored the attachment frontend for the Marketplace, to do it I started a Backend project that extends the Zend REST Controller, and I have added a Model representation layer that comunicates with the old Backend database mappers, making easier to represent results, apply filters and create relational representation in the backend, that can comunicate using RESTful with the Frontend. In the Frontend I added the librarie Backbone.relational and created solid representation of the models and collections, to comunicate with the Backend. To make the new models compatible with model/collectionBinder I created scopeCollection and scopeModels for the view, where it can handle custom information used to filter the collections, and create computed representations and bindings with the DOM layer. This project took 2 sprints (4 weeks)."
+                ]
+              }
+            ]
+          },
+          {
             "name": "Expensify",
             "city": "San Francisco",
             "state": "CA",
